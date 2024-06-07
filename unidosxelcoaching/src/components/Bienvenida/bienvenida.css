@@ -1,0 +1,33 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-logo, .custom-image {
+    width: 484px;
+    height: 484px;
+    object-fit: cover;
+}
+
+.welcome-text {
+    margin-top: 20px;
+    font-size: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.welcome-text strong {
+    font-weight: bold;
+    font-size: 32px;
+}
