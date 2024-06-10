@@ -5,12 +5,15 @@ import './App.css'
 import { BrowserRouter } from "react-router-dom";
 import EventosPresenciales from "./components/EventosPresenciales";
 import { Footer } from './components/Footer/Footer.jsx';
+import { Servicios } from './components/Servicios/Servicios.jsx';
+
 
 function App() {
   return (
     <>
        <BrowserRouter>
-        <EventosPresenciales />
+       <EventosPresenciales />
+       <Servicios />
         <Footer/>
       </BrowserRouter>
     </>
