@@ -1,65 +1,55 @@
 import React from "react";
-import './footer.css';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram, faFacebookF, faTiktok, faYoutube, faLinkedinIn, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import StylesFooter from './footer.module.css';
 
 export const Footer = () => {
   return (
-    <footer className="footer">
-      <div className="footer-photo">
-        <img src="/img/valeriaFooter.png" alt="imagen.footer" />
-      </div>
-      <div className="footer-text">
-        <h4 style={{ fontWeight: "bold" }}>Valeria Vargas</h4>
-        <p>Coach Profesional ICF</p>
-        <p>Directora de Unidos por el Coaching</p>
-      </div>
-
-      <div className="footer-redes">
-        <div className="footer-icons">
-          <a
+    <footer className={StylesFooter.footer}>
+    
+      <div className={StylesFooter['footer-redes']}>
+        <div className={StylesFooter['footer-icons']}>
+          <a className={StylesFooter.links}
             href="https://www.whatsapp.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faWhatsapp} /> +54 9 3517 71-7526
+            <img src="/img/wassap.png" alt="wasssap"  />  +54 9 3517 71-7526
           </a>
-          <a
+          <a className={StylesFooter.links}
             href="https://www.instagram.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faInstagram} /> @unidosporelcoachig
+            <img src="/img/ig.png" alt="ig"  /> @unidosporelcoachig
           </a>
-          <a
+          <a className={StylesFooter.links}
             href="https://www.facebook.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faFacebookF} /> /unidosporelcoachig
+            <img src="/img/face.png" alt="face"  /> /unidosporelcoachig
           </a>
         </div>
         <div className="footer-icons">
-          <a
+          <a className={StylesFooter.links}
             href="https://www.tiktok.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faTiktok} /> @unidosporelcoachig
+            <img src="/img/tiktok.png" alt="tiktok"  /> @unidosporelcoachig
           </a>
-          <a
+          <a className={StylesFooter.links}
             href="https://www.youtube.com"
             target="_blank"
             rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon icon={faYoutube} /> Unidos por el Coaching
+             >
+             <img src="/img/youtube.png" alt="youtube"  /> Unidos por el Coaching
           </a>
-          <a
+          <a className={StylesFooter.links}
             href="https://www.linkedin.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faLinkedinIn} /> Unidos por el Coaching
+           <img src="/img/linkedin.png" alt="linkedin"  />Unidos por el Coaching
           </a>
         </div>
       </div>

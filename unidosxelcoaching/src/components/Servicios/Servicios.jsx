@@ -1,5 +1,5 @@
 import React from "react";
-import "./servicios.css";
+import StylesServicios from './servicios.module.css';
 
 export const Servicios = () => {
   const handleWhatsAppRedirect = () => {
@@ -8,27 +8,30 @@ export const Servicios = () => {
     window.open(url, "_blank");
   };
   return (
-    <div className="servicios">
-      <div className="servicios-textos">
-        <h2>Servicios</h2>
-        <p>Encuentros "Networking entre Colegas" de todo el país</p>
-        <p>
+    <div className={StylesServicios.servicios}>
+      <div className={StylesServicios['servicios-texto']}>
+        <h2 className={StylesServicios.tituloservi}>Servicios</h2>
+        <div> 
+        <li>Encuentros "Networking entre Colegas" de todo el país.</li>
+        <li>
           Conferencia presencial "El arte de conversar" con la Master Coach
-          Internacional Elena Espinal
-        </p>
-        <p>Masterclass Online gratuitas con referentes del coaching</p>
-        <p>Portal de profesionales recomendados de la comunidad</p>
-        <p>Sesiones y mentorías para profesionales emprendedores</p>
-        <p>Talleres, capacitaciones y cursos</p>
+          Internacional Elena Espinal.
+        </li>
+        <li>Masterclass Online gratuitas con referentes del coaching.</li>
+        <li>Portal de profesionales recomendados de la comunidad.</li>
+        <li>Sesiones y mentorías para profesionales emprendedores.</li>
+        <li>Talleres, capacitaciones y cursos.</li>
+        
+        </div>
         <br />
-        <p className="mas-info">
+        <p className={StylesServicios['mas-info']}>
           Para más información sobre nuestros servicios haz click en el
           siguiente botón
         </p>
       </div>
       <div>
-        <button className="btn" onClick={handleWhatsAppRedirect}>
-          MAS INFORMACION
+        <button className={StylesServicios.btn} onClick={handleWhatsAppRedirect}>
+          MÁS INFORMACIÓN
         </button>
       </div>
     </div>

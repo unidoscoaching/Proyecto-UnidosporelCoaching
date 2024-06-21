@@ -1,0 +1,54 @@
+ .servicios {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FAF6FF;
+    border-radius: 0rem 9.25rem 0rem 7.1875rem;
+    width: 100%;
+    font-family: 'Montserrat';
+    color: #7A38AE;
+}
+
+/* div {
+    width: 100%;
+} */
+
+.tituloservi {
+    margin-top: 0.625rem;
+    margin-bottom: 0.9375rem;
+    text-align: center;
+    font-weight: 650;
+    font-size: 3rem;
+}
+
+.servicios-texto {
+    margin-top: 0.625rem;
+    margin-left: 4.4375rem;  
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.mas-info {
+    font-size: 1.25rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+
+
+.btn {
+    background-color: #7B37B0;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    display: block;
+    margin: 0 auto;
+    width: 16.0625rem;
+    height: 4.5625rem;
+    border-radius: 2.5rem;
+    margin-bottom: 1.25rem;
+    font-family: 'Montserrat';
+    font-size: 1.50rem;
+    
+} 

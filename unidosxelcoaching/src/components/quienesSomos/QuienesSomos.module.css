@@ -1,0 +1,24 @@
+ .quienes-somos-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25rem;
+    background-color: #FAF6FF;
+  }
+  
+  .fotoQuienes {
+    width: 100%;
+    border-radius: 1rem;
+  }
+  
+
+
+  .texto {
+    max-width: 37.5rem;
+    margin-left: 1.25rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #7B37B0;
+   font-size: 1.25rem;
+  }
+  
+

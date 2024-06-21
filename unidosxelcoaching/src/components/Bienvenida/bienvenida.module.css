@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+  
 }
 
 .row {
@@ -13,21 +13,28 @@
     align-items: center;
 }
 
-.custom-logo, .custom-image {
-    width: 484px;
-    height: 484px;
-    object-fit: cover;
+.custom-logo {
+    width: 70%;
+    padding: 0.625rem;
+    margin-left: 6.25rem;
+    /* object-fit: cover; */
 }
 
+.custom-image {
+    width: 100%;
+  margin-top: 1.25rem;
+  margin-right:3.125rem;
+  border-radius: 1rem;
+    /* object-fit: cover; */
+
+}
+
+
 .welcome-text {
-    margin-top: 20px;
-    font-size: 26px;
+    margin-top: 6.25rem;
+    font-size: 1.625rem;
     text-align: center;
     color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
 }
 
-.welcome-text strong {
-    font-weight: bold;
-    font-size: 32px;
-}

@@ -1,20 +1,20 @@
 import React from "react";
-import "./bienvenida.css";
+import StylesBienvenida from './bienvenida.module.css';
 
 export const Bienvenida = () => {
     return (
-        <div className="container">
-            <div className="row align-items-center">
+        <div className={StylesBienvenida.container}>
+            <div className=  {`${StylesBienvenida['row']} align-items-center`}>
                 <div className="col position-relative">
-                    <img src="/img/unidos.png" alt="unidos" className="custom-logo" />
+                    <img src="/img/unidos.png" alt="unidos" className={StylesBienvenida['custom-logo']} />
                 </div>
                 <div className="col position-relative">
-                    <img src="/img/bienvenida.png" alt="bienvenida" className="custom-image mt-4" />
+                    <img src="/img/bienvenida.png" alt="bienvenida" className= {`${StylesBienvenida['custom-image']}  `} />
                 </div>
             </div>
-            <div className="row">
-                <div className="col text-center">
-                    <p className="welcome-text">
+            <div className={StylesBienvenida.row}>
+                <div className="col text-center ">
+                    <p className={StylesBienvenida['welcome-text']}>
                         <strong>Conexión - Comunidad - Crecimiento</strong><br />
                         ¡Bienvenidos a Unidos por el Coaching!<br />
                         Una comunidad que conecta y expande a profesionales<br />

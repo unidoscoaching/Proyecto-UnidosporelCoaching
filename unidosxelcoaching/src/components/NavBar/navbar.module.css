@@ -1,0 +1,17 @@
+.navbar{
+    background-color: #FFFFFF;
+    
+  }
+  
+  .text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #7B37B0;
+
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 1em;
+}
+  

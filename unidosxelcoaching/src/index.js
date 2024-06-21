@@ -1,8 +1,10 @@
 export { default as App } from './App';
 export * from './components/Bienvenida/bienvenida';
-export { default as EventosPresenciales } from './components/EventosPresenciales';
+export * from './components/Contacto/Contacto';
+export { default as EventosPresenciales } from './components/EventosPresenciales/EventosPresenciales';
 export { default as Footer } from './components/Footer/Footer';
 export { default as navbar } from './components/NavBar/navbar';
+export * from './components/NuestraMision/NuestraMision';
 export { default as Servicios } from './components/Servicios/Servicios';
 export * from './components/quienesSomos/quienesSomos';
 export * from './index';

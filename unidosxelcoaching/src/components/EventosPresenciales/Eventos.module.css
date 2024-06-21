@@ -1,0 +1,81 @@
+.eventos {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FAF6FF;
+    width: 100%;
+    font-family: 'Montserrat';
+    color: #7A38AE;
+}
+
+.textoh1 {
+    size: 3rem;
+    text-align: center;
+    margin-top: 0.75rem;
+    margin-bottom: 0.9375rem;
+}
+
+.fotoeventos{
+    min-width: 85.375rem;
+    height: 35.6875rem;
+    width: 100%;
+}
+
+.texto-unidos {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    padding-left: 24.375rem;
+    padding-right: 24.375rem;
+    size: 2rem;
+    text-align: center;
+}
+
+.eventos-comunidad {
+    background-color: #7A38AE ;
+    color: #FFFFFF;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    padding-left: 24.375rem;
+    padding-right: 24.375rem;
+    size: 2rem;
+    text-align: center;
+}
+
+.titulo {
+    size: 2rem;
+    margin-bottom: 1.25rem;
+}
+
+.textocomu {
+    font-size: 1.25rem;
+    margin-bottom: 0;
+}
+
+.group {
+    margin-top: 1.25rem;
+    color: #FFFFFF;
+    width: 10.625rem;
+    height: 5rem;
+    object-fit: contain;
+    margin-bottom: 1.25rem;
+}
+
+.titulo2 {
+   font-size: 2rem;
+}
+
+.btn {
+    background-color: #FFFFFF;
+    border-color: #7B37B0;
+    color: #7B37B0;
+    display: block;
+    margin: 0 auto;
+    width: 16.0625rem;
+    height: 4.5625rem;
+    border-radius: 2.5rem;
+    margin-bottom: 1.25rem;
+    font-family: 'Montserrat';
+    font-size: 1.50rem;
+}

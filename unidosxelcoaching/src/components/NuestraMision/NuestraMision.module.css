@@ -1,0 +1,25 @@
+.nuestra-mision-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25rem;
+    background-color: #7B37B0;
+    
+  }
+  
+  .fotoMision {
+    width: 100%;
+    border-radius: 1rem;
+  }
+  
+
+
+  .texto {
+    max-width: 37.5rem;
+    margin-right: 1.25rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    text-align:left;
+  }
+  
