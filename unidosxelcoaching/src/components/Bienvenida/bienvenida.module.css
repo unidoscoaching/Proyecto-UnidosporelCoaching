@@ -1,10 +1,9 @@
-
 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  
+
 }
 
 .row {
@@ -22,13 +21,11 @@
 
 .custom-image {
     width: 100%;
-  margin-top: 1.25rem;
-  margin-right:3.125rem;
-  border-radius: 1rem;
+    margin-top: 1.25rem;
+    margin-right: 3.125rem;
     /* object-fit: cover; */
 
 }
-
 
 .welcome-text {
     margin-top: 6.25rem;
@@ -37,4 +34,3 @@
     color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
 }
-

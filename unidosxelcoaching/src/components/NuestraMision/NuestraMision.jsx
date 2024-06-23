@@ -10,7 +10,7 @@ export const NuestraMision = () => {
             <h2><b>Visión</b></h2>
             <p>Ser una red colaborativa de Coaches mundial.</p>
           </div>
-          <div>
+          <div style={{width:'50.5%'}}>
             <img src="/img/nuestramision.png" alt="mision" className={StylesNuestraMision.fotoMision}/>
           </div>
 

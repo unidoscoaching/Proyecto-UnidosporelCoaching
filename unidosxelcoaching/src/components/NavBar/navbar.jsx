@@ -6,41 +6,41 @@ import { faInstagram, faFacebookF, faTiktok, faYoutube, faLinkedinIn } from '@fo
 
 export const NavBar = () => {
     return (
-        <div className={`${StylesNavbar['navbar']} d-flex justify-content-center align-items-center mt-4`}>
-            <img className={`rounded me-4 ${StylesNavbar['mr-4']}`} src="/img/uxc.png" alt="Logo" style={{ width: "4em" }} />
+        <div className={`${StylesNavbar['navbar']} d-flex align-items-center justify-content-between mt-4`}>
+            <img className={`rounded ms-4 ${StylesNavbar['me-4']}`} src="/img/uxc.png" alt="Logo" style={{ width: "3.5em", marginRight:".625rem", padding:".125rem" }} />
             <nav className={`navbar navbar-expand-lg ${StylesNavbar.navbar}`}>
                 <div className="container-fluid">
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div className="collapse navbar-collapse" id="navbarNav">
-                        <ul className="navbar-nav" >
+                    <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
+                        <ul className="navbar-nav">
                             <li className="nav-item">
-                                <Link to="/" className={`nav-link ${StylesNavbar.navbar} ${StylesNavbar.text} `}>¿Quiénes somos?</Link>
+                                <Link to="/quienesSomos" className={`nav-link ${StylesNavbar.navbar} ${StylesNavbar.text}`}>¿Quiénes somos?</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/" className={`nav-link ${StylesNavbar.navbar} ${StylesNavbar.text} `}>Nuestra Misión</Link>
+                                <Link to="/nuestraMision" className={`nav-link ${StylesNavbar.navbar} ${StylesNavbar.text}`}>Nuestra Misión</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/" className={`nav-link ${StylesNavbar.navbar} ${StylesNavbar.text} `}>Eventos</Link>
+                                <Link to="/eventosPresenciales" className={`nav-link ${StylesNavbar.navbar} ${StylesNavbar.text}`}>Eventos</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/" className={`nav-link ${StylesNavbar.navbar} ${StylesNavbar.text} `}>Servicios</Link>
+                                <Link to="/Servicios" className={`nav-link ${StylesNavbar.navbar} ${StylesNavbar.text}`}>Servicios</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/" className={`nav-link ${StylesNavbar.navbar} ${StylesNavbar.text} `}>Contacto</Link>
+                                <Link to="/Contacto" className={`nav-link ${StylesNavbar.navbar} ${StylesNavbar.text}`}>Contacto</Link>
                             </li>
                         </ul>
-                        <div className={`${StylesNavbar['social-icons']} d-flex ms-4`}>
-                            <a href="https://www.instagram.com/unidosporelcoaching" target="_blank" rel="noopener noreferrer" className={` me-1 ${StylesNavbar.text}`}><FontAwesomeIcon icon={faInstagram} /></a>
-                            <a href="https://www.facebook.com/unidosporelcoaching" target="_blank" rel="noopener noreferrer" className={`me-1 ${StylesNavbar.text}`}><FontAwesomeIcon icon={faFacebookF} /></a>
-                            <a href="https://www.tiktok.com/@unidosporelcoachig" className={`me-1 ${StylesNavbar.text}`}><FontAwesomeIcon icon={faTiktok} /></a>
-                            <a href="https://www.youtube.com/@unidosporelcoaching8964" target="_blank" rel="noopener noreferrer" className={`me-1 ${StylesNavbar.text}`}><FontAwesomeIcon icon={faYoutube} /></a>
-                            <a href="https://www.linkedin.com/in/valeria-vargas-42a2161b1/" target="_blank" rel="noopener noreferrer" className={`me-1 ${StylesNavbar.text}`}><FontAwesomeIcon icon={faLinkedinIn} /></a>
-                        </div>
                     </div>
                 </div>
             </nav>
+            <div className={`${StylesNavbar['social-icons']} d-flex me-4`}>
+                <a href="https://www.instagram.com/unidosporelcoaching" target="_blank" rel="noopener noreferrer" className={`me-1 ${StylesNavbar.text}`}><FontAwesomeIcon icon={faInstagram} /></a>
+                <a href="https://www.facebook.com/unidosporelcoaching" target="_blank" rel="noopener noreferrer" className={`me-1 ${StylesNavbar.text}`}><FontAwesomeIcon icon={faFacebookF} /></a>
+                <a href="https://www.tiktok.com/@unidosporelcoachig" className={`me-1 ${StylesNavbar.text}`}><FontAwesomeIcon icon={faTiktok} /></a>
+                <a href="https://www.youtube.com/@unidosporelcoaching8964" target="_blank" rel="noopener noreferrer" className={`me-1 ${StylesNavbar.text}`}><FontAwesomeIcon icon={faYoutube} /></a>
+                <a href="https://www.linkedin.com/in/valeria-vargas-42a2161b1/" target="_blank" rel="noopener noreferrer" className={`me-1 ${StylesNavbar.text}`}><FontAwesomeIcon icon={faLinkedinIn} /></a>
+            </div>
         </div>
     );
 };

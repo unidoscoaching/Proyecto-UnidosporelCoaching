@@ -4,7 +4,7 @@ import StylesQuienesSomos from './QuienesSomos.module.css';
 export const QuienesSomos = () => {
   return (
     <div className={StylesQuienesSomos['quienes-somos-container']}>
-    <div>
+      <div style={{width:'50%'}}>
         <img src="/img/quienes.png" alt="quienes" className={StylesQuienesSomos.fotoQuienes} />
       </div>
       <div className={StylesQuienesSomos.texto}>
@@ -17,4 +17,3 @@ export const QuienesSomos = () => {
     </div>
   );
 };
-
