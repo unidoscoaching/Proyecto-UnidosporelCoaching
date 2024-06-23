@@ -11,7 +11,7 @@ export const Footer = () => {
     <footer className={StylesFooter.footer}>
       <div className={StylesFooter['footer-redes']}>
         <div className={StylesFooter['footer-icons']}>
-          <a className={StylesFooter.links} onClick={handleWhatsAppRedirect} target="_blank" rel="noopener noreferrer">
+          <a className={StylesFooter.links} onClick={handleWhatsAppRedirect}  target="_blank" rel="noopener noreferrer">
             <img className={StylesFooter.img} style={{ width: '2.3rem', marginRight:'1rem'}} src="/img/wassap.png" alt="wasssap" /> +54 9 3517 71-7526
           </a>
           <a className={StylesFooter.links} href="https://www.instagram.com/unidosporelcoaching" target="_blank" rel="noopener noreferrer">

@@ -3,7 +3,8 @@ import StylesBienvenida from './bienvenida.module.css';
 
 export const Bienvenida = () => {
     return (
-        <div className={StylesBienvenida.container}>
+
+        <div data-aos="fade-up" className={StylesBienvenida.container}>
             <div className=  {`${StylesBienvenida['row']} align-items-center`}>
                 <div className="col position-relative">
                     <img src="/img/unidos.png" alt="unidos" className={StylesBienvenida['custom-logo']} />

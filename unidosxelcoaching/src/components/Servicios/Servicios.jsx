@@ -26,7 +26,7 @@ export const Servicios = () => {
         <br />
         <p className={StylesServicios['mas-info']}>
           Para más información sobre nuestros servicios haz click en el
-          siguiente botón
+          siguiente botón :
         </p>
       </div>
       <div>

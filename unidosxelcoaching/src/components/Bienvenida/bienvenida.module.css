@@ -16,19 +16,18 @@
     width: 70%;
     padding: 0.625rem;
     margin-left: 6.25rem;
-    /* object-fit: cover; */
+ 
 }
 
 .custom-image {
     width: 100%;
     margin-top: 1.25rem;
     margin-right: 3.125rem;
-    /* object-fit: cover; */
-
+    
 }
 
 .welcome-text {
-    margin-top: 6.25rem;
+    margin-top: 1rem;
     font-size: 1.625rem;
     text-align: center;
     color: #FFFFFF;
