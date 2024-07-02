@@ -11,9 +11,7 @@
     color: #7A38AE;
 }
 
-/* div {
-    width: 100%;
-} */
+
 
 .tituloservi {
     margin-top: 0.625rem;
@@ -31,7 +29,7 @@
 }
 
 .mas-info {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     text-align: center;
     font-weight: 400;
 }
@@ -49,5 +47,10 @@
     margin-bottom: 1.25rem;
     font-family: 'Montserrat';
     font-size: 1.50rem;
+    transition: transform 0.3s ease;
     
 } 
+
+.btn:hover {
+    transform: scale(1.1); 
+  }

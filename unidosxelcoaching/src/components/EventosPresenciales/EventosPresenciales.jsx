@@ -10,7 +10,7 @@ export const EventosPresenciales = () => {
     };
     return (
   <>
-      <div className={StylesEventos.eventos}>
+      <div  data-aos="zoom-in" className={StylesEventos.eventos}>
         <h1 className={StylesEventos.textoh1}>Eventos Presenciales</h1>
         <figure>
           <img src="src/assets/img/foto-evento.png" alt="foto-evento" className={StylesEventos.fotoeventos}/>

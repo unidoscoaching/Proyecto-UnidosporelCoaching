@@ -5,10 +5,12 @@ export const Contacto = () => {
 
     return (
         <>
-            <div className={StylesContacto.contacto}>
+
+    
+            <div data-aos="zoom-in" className={StylesContacto.contacto}>
                 <img src="/img/valeriaFooter.png" alt="imagen.footer" className={StylesContacto["contacto-photo"]} />
             </div>
-            <div className={StylesContacto['contacto-text']}>
+            <div data-aos="zoom-in" className={StylesContacto['contacto-text']}>
                 <h4 className={StylesContacto.nombre} style={{ fontWeight: "bold" }}>Valeria Vargas</h4>
                 <div className={StylesContacto.parrafo}>
                     <p>Coach Profesional ICF 
