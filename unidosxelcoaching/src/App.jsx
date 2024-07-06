@@ -7,6 +7,7 @@ import { EventosPresenciales } from "./components/EventosPresenciales/EventosPre
 import { Footer } from './components/Footer/Footer.jsx';
 import { Servicios } from './components/Servicios/Servicios.jsx';
 import { NuestraMision } from "./components/NuestraMision/NuestraMision.jsx"
+import { Home } from "./components/Home/home.jsx";
 import { Contacto } from "./components/Contacto/Contacto.jsx"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -24,7 +25,8 @@ function App() {
     <BrowserRouter>
       <NavBar />
       <Routes>
-        <Route path="/" element={<Bienvenida />} />
+        <Route path="/" element={<Home />} /> 
+        <Route path="/bienvenida" element={<Bienvenida />} />
         <Route path="/quienesSomos" element={<QuienesSomos />} />
         <Route path="/nuestraMision" element={<NuestraMision />} />
         <Route path="/eventosPresenciales" element={<EventosPresenciales />} />
