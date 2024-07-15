@@ -44,3 +44,34 @@
   width: 1.5rem;
   font-size: .75rem;
 } 
+
+
+@media screen and (max-width:480px)
+{
+
+  .footer {
+    padding: 1rem; /* Añade un padding para mejor visualización en móvil */
+  }
+
+  .footer-redes {
+    margin: 0.75rem 0;
+    padding: 0.5rem;
+  }
+
+  .footer-icons {
+    gap: 0.75rem; /* Reduce el espacio entre íconos */
+  }
+
+  .footer-icons > a {
+    flex-basis: 45%; /* Ajusta el ancho de los enlaces de íconos en móvil */
+    margin: 5px; /* Reduce el margen para que se vea bien en móvil */
+  }
+
+  .links {
+    font-size: 1.25rem; /* Ajusta el tamaño de fuente para enlaces */
+  }
+
+  .img {
+    width: 1.25rem; /* Ajusta el tamaño de las imágenes */
+  }
+}

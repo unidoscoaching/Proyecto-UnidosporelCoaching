@@ -83,3 +83,48 @@
 .btn:hover {
     transform: scale(1.1); 
   }
+
+
+  @media screen and (max-width:480px) 
+  {
+    .eventos {
+        padding: 0 1rem; 
+    }
+
+    .texto-unidos, .eventos-comunidad {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        size: 1.5rem; 
+        text-align: center; 
+    }
+
+    .textoh1 {
+        font-size: 2rem; 
+        margin-top: 1rem; 
+        margin-bottom: 1rem; 
+    }
+
+    .fotoeventos {
+        width: 100%; 
+        margin-top: 1rem; 
+        min-width: 1rem;
+    }
+
+    .group {
+        width: 60%; 
+       
+    }
+
+    .btn {
+        width: 100%; 
+        font-size: 1.25rem; 
+    }
+
+    .titulo, .titulo2 {
+        font-size: 1.5rem; 
+    }
+
+    .textocomu {
+        font-size: 1rem; 
+    }
+  }

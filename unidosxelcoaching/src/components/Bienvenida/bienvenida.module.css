@@ -33,3 +33,35 @@
     color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
 }
+
+/* Vista Mobile */
+
+@media screen and (max-width:480px) 
+{
+
+    .container {
+        padding: 0 1rem; 
+    }
+
+    .custom-logo {
+        width: 100%;
+         margin-left: 0;
+        
+    }
+
+    .custom-image {
+        width: 100%;
+        margin-top: 1.25rem;
+        margin-right: 0; 
+    }
+
+    .welcome-text {
+        margin-top: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+}
+

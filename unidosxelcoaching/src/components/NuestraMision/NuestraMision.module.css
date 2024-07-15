@@ -12,8 +12,6 @@
     width: 100%;
   }
   
-
-
   .texto {
     max-width: 37.5rem;
     margin-right: 1.25rem;
@@ -23,3 +21,28 @@
     text-align:left;
   }
   
+  @media screen and (max-width:480px) 
+  {
+
+    .nuestra-mision-container {
+      flex-direction: column;
+      padding: 1rem;
+      margin-left: 0; 
+    }
+  
+    .texto {
+      width: 100%;
+      max-width: none; 
+      margin-right: 0; 
+      margin-bottom: 1rem; 
+      text-align: center; 
+    }
+  
+    .fotoMision {
+      width: 100%;
+      max-width: 100%; /* Asegura que la imagen ocupe todo el ancho posible */
+      height: auto; /* Mantén la relación de aspecto */
+      
+     
+    }
+  }

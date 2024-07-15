@@ -6,6 +6,7 @@ import { faInstagram, faFacebookF, faTiktok, faYoutube, faLinkedinIn } from '@fo
 
 export const NavBar = () => {
     return (
+       
         <div className={`${StylesNavbar['navbar']} d-flex align-items-center justify-content-between mt-4`}>
              <Link to="/" className="d-flex align-items-center">
                 <img className={`rounded ms-4 ${StylesNavbar['me-4']}`} src="/img/uxc.png" alt="Logo" style={{ width: "3.5em", marginRight:".625rem", padding:".125rem" }} />
@@ -41,8 +42,8 @@ export const NavBar = () => {
                         </ul>
                     </div>
                 </div>
-            </nav>
-            <div className={`${StylesNavbar['social-icons']} d-flex me-4`}>
+                </nav>
+            <div className={`${StylesNavbar['social-icons'] } d-flex me-4 `}>
                 <a href="https://www.instagram.com/unidosporelcoaching" target="_blank" rel="noopener noreferrer" className={`me-1 ${StylesNavbar.text}`}><FontAwesomeIcon icon={faInstagram} /></a>
                 <a href="https://www.facebook.com/unidosporelcoaching" target="_blank" rel="noopener noreferrer" className={`me-1 ${StylesNavbar.text}`}><FontAwesomeIcon icon={faFacebookF} /></a>
                 <a href="https://www.tiktok.com/@unidosporelcoachig" className={`me-1 ${StylesNavbar.text}`}><FontAwesomeIcon icon={faTiktok} /></a>
@@ -50,6 +51,7 @@ export const NavBar = () => {
                 <a href="https://www.linkedin.com/in/valeria-vargas-42a2161b1/" target="_blank" rel="noopener noreferrer" className={`me-1 ${StylesNavbar.text}`}><FontAwesomeIcon icon={faLinkedinIn} /></a>
             </div>
         </div>
+        
     );
 };
 

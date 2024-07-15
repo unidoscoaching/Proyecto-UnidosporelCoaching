@@ -39,4 +39,29 @@
   justify-content: space-between !important;
 }
 
+/* Vista mobile */
 
+@media screen and (max-width: 480px) {
+ 
+  .navbar-nav .nav-link {
+    text-align: center;
+    font-size: 1rem; 
+  }
+
+
+  .social-icons a {
+    transform: scale(1.2);
+  }
+
+  .navbar {
+    align-items: center;
+  }
+
+  .me-4, .ms-4 {
+    margin: 0;
+  }
+
+  .mt-4 {
+    margin-top: 1rem !important;
+  }
+}

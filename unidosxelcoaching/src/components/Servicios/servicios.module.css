@@ -54,3 +54,31 @@
 .btn:hover {
     transform: scale(1.1); 
   }
+
+
+  @media screen and (max-width:480px) 
+  {
+
+    .servicios {
+        padding: 1rem; 
+        border-radius: 0; 
+    }
+
+    .tituloservi {
+        font-size: 2rem; 
+        margin-top: 1rem; 
+        margin-bottom: 1rem; 
+    }
+
+    .servicios-texto {
+        margin-left: 0; 
+        font-size: 1.25rem; 
+        text-align: center; 
+    }
+
+    .btn {
+        width: 100%; 
+        font-size: 1.25rem; 
+    }
+
+  }
