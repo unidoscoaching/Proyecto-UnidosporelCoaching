@@ -7,24 +7,24 @@
   font-family: 'Montserrat';
   background-color: #7B37B0;
   bottom: 0;
-   margin-top: 1rem;
+  margin-top: 1rem;
 
 }
 
 .footer-redes{
   background-color: white;
-  margin: 1.25rem 0 1.25rem 0;
+  margin:  0.75rem 0;
   width: 100%;
   left: 0;
-  padding: 0.75rem;
+  padding: 0.5rem;
 }
 
-.footer-icons{
+.footer-icons {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 1.25rem;
-  margin: 1rem ;
+  gap: 0.75rem;
+  margin: 0.5rem ;
   color: #7B37B0;
   align-items: center !important;
   justify-content: center !important;
@@ -32,83 +32,86 @@
 
 .footer-icons > a {
   flex-basis: 31%;
-  margin: 10px;
+  margin: 5px;
 }
 
 .links {
   color: #7B37B0;
-  font-size: 1.5rem;
+  font-size: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.links:hover .img {
+  transform: scale(1.2);
 }
 
 .img {
-  width: 1.5rem;
+  width: 1.2rem;
   font-size: .75rem;
+  transition: transform 0.3s ease;
 } 
-
-
 
 /* Vista Mobile */
 
-@media screen and (max-width:480px)
-{
+@media screen and (max-width:480px){
 
-  .footer {
-    padding: 1rem; /* Añade un padding para mejor visualización en móvil */
-  }
+.footer {
+  padding: 0.5rem; 
+}
 
-  .footer-redes {
-    margin: 0.75rem 0;
-    padding: 0.5rem;
-  }
+.footer-redes {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+}
 
-  .footer-icons {
-    gap: 0.75rem; /* Reduce el espacio entre íconos */
-  }
+.footer-icons {
+  gap: 0.5rem; 
+}
 
-  .footer-icons > a {
-    flex-basis: 45%; /* Ajusta el ancho de los enlaces de íconos en móvil */
-    margin: 5px; /* Reduce el margen para que se vea bien en móvil */
-  }
+.footer-icons > a {
+  flex-basis: 45%; 
+  margin: 5px;
+}
 
-  .links {
-    font-size: 1.25rem; /* Ajusta el tamaño de fuente para enlaces */
-  }
+.links {
+  font-size: 0.9rem; 
+}
 
-  .img {
-    width: 1.25rem; /* Ajusta el tamaño de las imágenes */
-  }
+.img {
+  width: 1.1rem;
+  font-size: 0.75rem 
+}
 }
 
 
 /* Vista Tablet */
 
-@media screen and (max-width: 1024px)
-{
+@media screen and (max-width: 1024px){
   .footer {
-    padding: 1rem; /* Ajusta el padding general para tabletas */
+    padding: 1rem; 
   }
 
   .footer-redes {
     margin: 0.75rem 0;
-    padding: 0.5rem; /* Ajusta el padding para tabletas */
+    padding: 0.5rem; 
   }
 
   .footer-icons {
-    gap: 0.75rem; /* Reduce el espacio entre íconos para tabletas */
+    gap: 0.75rem; 
   }
 
   .footer-icons > a {
-    flex-basis: 31%; /* Ajusta el ancho de los enlaces de íconos en tabletas */
-    margin: 10px; /* Ajusta el margen para que se vea bien en tabletas */
+    flex-basis: 31%; 
+    margin: 10px; 
   }
 
   .links {
-    font-size: 1.5rem; /* Ajusta el tamaño de fuente para enlaces en tabletas */
+    font-size: 1.5rem; 
   }
 
   .img {
-    width: 1.5rem; /* Ajusta el tamaño de las imágenes en tabletas */
-    font-size: 0.75rem; /* Ajusta el tamaño de fuente de las imágenes en tabletas */
+    width: 1.5rem; 
+    font-size: 0.75rem;
   }
-
 }
