@@ -56,6 +56,9 @@
   }
 
 
+
+  /* Vista Mobile */
+
   @media screen and (max-width:480px) 
   {
 
@@ -80,5 +83,35 @@
         width: 100%; 
         font-size: 1.25rem; 
     }
+
+  }
+
+
+  /* Vista Tablet */
+
+  @media screen and (max-width: 1024px)
+  {
+    .servicios {
+        padding: 1rem; 
+        border-radius: 0; 
+      }
+    
+      .tituloservi {
+        font-size: 2.5rem; 
+        margin-top: 1.5rem; 
+        margin-bottom: 1.5rem; 
+      }
+    
+      .servicios-texto {
+        margin-left: 0; 
+        font-size: 1.3rem; 
+        text-align: center; 
+      }
+    
+      .btn {
+        width: 100%; 
+        font-size: 1.5rem; 
+      }
+
 
   }

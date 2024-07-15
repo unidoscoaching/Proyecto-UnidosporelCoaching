@@ -85,6 +85,8 @@
   }
 
 
+  /* Vista Mobile */
+
   @media screen and (max-width:480px) 
   {
     .eventos {
@@ -128,3 +130,55 @@
         font-size: 1rem; 
     }
   }
+
+
+
+ /* Vista Tablet */
+
+  @media screen and (max-width: 1024px)
+  {
+
+    .eventos {
+        padding: 0 1rem; 
+      }
+    
+      .textoh1 {
+        font-size: 2.5rem; 
+        margin-top: 1.5rem; 
+        margin-bottom: 1.5rem; 
+      }
+    
+      .texto-unidos, .eventos-comunidad {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 1.75rem; 
+        text-align: center; 
+      }
+    
+      .fotoeventos {
+        width: 100%; 
+        margin-top: 1rem; 
+        min-width: 1rem;
+      }
+    
+      .group {
+        width: 80%; 
+      }
+    
+      .btn {
+        width: 100%;
+        font-size: 1.5rem; 
+      }
+    
+      .titulo, .titulo2 {
+        font-size: 2rem; 
+      }
+    
+      .textocomu {
+        font-size: 1.25rem; 
+      }
+
+
+  }
+
+

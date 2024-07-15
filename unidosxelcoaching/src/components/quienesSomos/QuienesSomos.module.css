@@ -20,6 +20,8 @@
   }
 
 
+  /* Vista Mobile */
+
   @media screen and (max-width:480px) 
 {
 
@@ -42,5 +44,22 @@
   }
 
 
+
+}
+
+
+/* Vista Tablet */
+
+@media screen and (max-width: 1024px)
+
+{
+
+  .quienes-somos-container {
+    padding: 1rem; /* Ajusta el padding para tabletas */
+  }
+
+  .texto {
+    font-size: 1.1rem; /* Ajusta el tamaño de fuente para tabletas */
+  }
 
 }

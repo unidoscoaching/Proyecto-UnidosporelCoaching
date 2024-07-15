@@ -46,6 +46,9 @@
 } 
 
 
+
+/* Vista Mobile */
+
 @media screen and (max-width:480px)
 {
 
@@ -74,4 +77,38 @@
   .img {
     width: 1.25rem; /* Ajusta el tamaño de las imágenes */
   }
+}
+
+
+/* Vista Tablet */
+
+@media screen and (max-width: 1024px)
+{
+  .footer {
+    padding: 1rem; /* Ajusta el padding general para tabletas */
+  }
+
+  .footer-redes {
+    margin: 0.75rem 0;
+    padding: 0.5rem; /* Ajusta el padding para tabletas */
+  }
+
+  .footer-icons {
+    gap: 0.75rem; /* Reduce el espacio entre íconos para tabletas */
+  }
+
+  .footer-icons > a {
+    flex-basis: 31%; /* Ajusta el ancho de los enlaces de íconos en tabletas */
+    margin: 10px; /* Ajusta el margen para que se vea bien en tabletas */
+  }
+
+  .links {
+    font-size: 1.5rem; /* Ajusta el tamaño de fuente para enlaces en tabletas */
+  }
+
+  .img {
+    width: 1.5rem; /* Ajusta el tamaño de las imágenes en tabletas */
+    font-size: 0.75rem; /* Ajusta el tamaño de fuente de las imágenes en tabletas */
+  }
+
 }

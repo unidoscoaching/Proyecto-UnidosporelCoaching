@@ -42,11 +42,41 @@
   }
   
 
+/* Vista mobile */
+
   @media screen and (max-width:480px)
   {
     .contacto-photo {
       width: 12rem; 
       height: 12rem;
+    }
+  
+    .contacto-text {
+      font-size: 1.5rem; 
+      height: auto; 
+    }
+  
+    .nombre {
+      font-size: 1.5rem; 
+    }
+  
+    .parrafo {
+      font-size: 1.25rem; 
+    }
+
+
+  }
+
+  
+
+/* Vista Tablet */
+
+
+  @media screen and (max-width: 1024px)
+  {
+    .contacto-photo {
+      width: 12rem; 
+      height: 12rem; 
     }
   
     .contacto-text {
