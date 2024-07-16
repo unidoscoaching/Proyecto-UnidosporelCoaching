@@ -30,6 +30,10 @@ export const Footer = () => {
             <img className={StylesFooter.img} style={{ width: '2.3rem', marginRight:'1rem'}} src="/img/linkedin.png" alt="linkedin" /> Unidos por el Coaching
           </a>
         </div>
+          <div className={StylesFooter['footer-text']}>
+            <p>©️ Unidos por el Coaching - 2024</p>
+            <p>Todos los derechos reservados</p>
+          </div>
       </div>
     </footer>
   );
