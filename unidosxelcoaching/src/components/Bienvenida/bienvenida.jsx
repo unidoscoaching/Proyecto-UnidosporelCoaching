@@ -3,7 +3,6 @@ import StylesBienvenida from './bienvenida.module.css';
 
 export const Bienvenida = () => {
     return (
-
         <div data-aos="zoom-in" className={StylesBienvenida.container}>
             <div className=  {`${StylesBienvenida['row']} align-items-center`}>
                 <div className="col position-relative">
@@ -26,5 +25,3 @@ export const Bienvenida = () => {
         </div>
     );
 };
-
-

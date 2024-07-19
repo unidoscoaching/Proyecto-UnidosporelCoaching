@@ -21,12 +21,10 @@
     text-align:left;
   }
 
-
   /* Vista Mobile */
   
   @media screen and (max-width:480px) 
   {
-
     .nuestra-mision-container {
       flex-direction: column;
       padding: 1rem;
@@ -38,18 +36,15 @@
       max-width: none; 
       margin-right: 0; 
       margin-bottom: 1rem; 
+      margin-left: 1rem;
       text-align: center; 
     }
   
     .fotoMision {
       width: 100%;
       max-width: 100%; 
-      height: auto; 
-      
-     
     }
   }
-
 
   /* Vista Tablet */
 
@@ -72,6 +67,7 @@
     font-family: 'Montserrat', sans-serif;
     color: #FFFFFF;
     font-size: 1.1rem; 
+    margin-left: 1rem;
     text-align: left;
   }
 
@@ -81,8 +77,4 @@
     height: auto; 
     margin-bottom: 1rem; 
   }
-
-
 }
-
-

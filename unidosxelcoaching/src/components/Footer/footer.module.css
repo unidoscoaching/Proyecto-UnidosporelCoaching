@@ -87,20 +87,18 @@
 }
 
 .img {
-  width: 1.1rem;
-  font-size: 0.75rem 
+  width: 1.5rem;
+  font-size: 0.75rem; 
 }
 
 .footer-text p {
-  margin-top: 1.5rem;
+  margin-top: 1.2rem;
   margin: 0.2rem 0;
   font-size: 0.8rem;
   font-family: 'Montserrat';
   color: #7B37B0
 }
 }
-
-
 
 /* Vista Tablet */
 

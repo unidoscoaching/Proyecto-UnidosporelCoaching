@@ -3,7 +3,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 .row {
@@ -16,14 +15,12 @@
     width: 70%;
     padding: 0.625rem;
     margin-left: 6.25rem;
- 
 }
 
 .custom-image {
     width: 100%;
     margin-top: 1.25rem;
     margin-right: 3.125rem;
-    
 }
 
 .welcome-text {
@@ -38,14 +35,13 @@
 
 @media screen and (max-width:480px) 
 {
-
     .container {
         padding: 0 1rem; 
     }
 
     .custom-logo {
         width: 100%;
-         margin-left: 0;
+        margin-left: 0;
         
     }
 
@@ -96,6 +92,4 @@
         justify-content: space-around;
         align-items: center; 
     }
-
-
 }
