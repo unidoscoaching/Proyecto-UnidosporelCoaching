@@ -80,6 +80,7 @@
 .footer-icons > a {
   flex-basis: 45%; 
   margin: 5px;
+  font-size: 0.6rem;
 }
 
 .links {
@@ -94,7 +95,7 @@
 .footer-text p {
   margin-top: 1.2rem;
   margin: 0.2rem 0;
-  font-size: 0.8rem;
+  font-size: 0.3rem;
   font-family: 'Montserrat';
   color: #7B37B0
 }

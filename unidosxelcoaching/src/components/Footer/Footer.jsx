@@ -33,7 +33,7 @@ export const Footer = () => {
           <div className={StylesFooter['footer-text']}>
             <p>©️ Unidos por el Coaching - 2024</p>
             <p>Todos los derechos reservados</p>
-          </div>
+        </div>
       </div>
     </footer>
   );

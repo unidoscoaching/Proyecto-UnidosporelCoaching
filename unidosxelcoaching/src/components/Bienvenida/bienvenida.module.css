@@ -32,23 +32,28 @@
 }
 
 /* Vista Mobile */
+@media screen and (max-width: 480px) {
+    .logo-container {
+        width: 35%;
+    }
+    .image-container {
+        width: 65%;
+    }
 
-@media screen and (max-width:480px) 
-{
+    .logo-container,
+    .image-container {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .logo-container img,
+    .image-container img {
+        width: 100%;
+        height: auto;
+    }
+
     .container {
-        padding: 0 1rem; 
-    }
-
-    .custom-logo {
-        width: 100%;
-        margin-left: 0;
-        
-    }
-
-    .custom-image {
-        width: 100%;
-        margin-top: 1.25rem;
-        margin-right: 0; 
+        padding: 0 1rem;
     }
 
     .welcome-text {
@@ -60,7 +65,6 @@
         flex-direction: column;
     }
 }
-
 /* Vista Tablet */
 
 @media screen and (max-width: 1024px)
