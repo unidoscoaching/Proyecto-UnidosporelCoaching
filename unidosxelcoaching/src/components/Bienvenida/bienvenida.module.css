@@ -32,18 +32,14 @@
 }
 
 /* Vista Mobile */
-@media screen and (max-width: 480px) {
-    .logo-container {
-        width: 35%;
-    }
-    .image-container {
-        width: 65%;
-    }
 
+@media screen and (max-width: 480px) {
     .logo-container,
     .image-container {
-        display: inline-block;
-        vertical-align: top;
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin-bottom: 1rem; /* Espacio entre el logo y la imagen */
     }
 
     .logo-container img,
@@ -65,6 +61,7 @@
         flex-direction: column;
     }
 }
+
 /* Vista Tablet */
 
 @media screen and (max-width: 1024px)

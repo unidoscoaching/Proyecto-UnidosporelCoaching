@@ -23,29 +23,28 @@
   /* Vista Mobile */
 
   @media screen and (max-width:480px) 
-{
+  {
+  
+    .quienes-somos-container {
+      flex-direction: column;
+      align-items: center;
 
-  .quienes-somos-container {
-    flex-direction: column;
-    align-items: center;
-    padding: 0.5rem; 
-  }
-
-  .fotoQuienes {
-    max-width: 100%; 
-    margin-bottom: 1rem; 
+    }
+  
+    .fotoQuienes {
+      width: 100%; 
+      object-fit: cover; 
+      padding: 1rem;
+    }
+  
+    .texto {
+      max-width: 100%; 
+      margin-left: 0; 
+      font-size: 1rem; 
+    }
   
   }
-
-  .texto {
-    max-width: 100%; 
-    margin-left: 0; 
-    font-size: 1rem; 
-  }
-
-
-
-}
+  
 
 
 /* Vista Tablet */
@@ -55,11 +54,11 @@
 {
 
   .quienes-somos-container {
-    padding: 1rem; /* Ajusta el padding para tabletas */
+    padding: 1rem; 
   }
 
   .texto {
-    font-size: 1.1rem; /* Ajusta el tamaño de fuente para tabletas */
+    font-size: 1.1rem; 
   }
 
 }

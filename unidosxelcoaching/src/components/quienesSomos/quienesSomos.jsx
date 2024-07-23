@@ -4,7 +4,7 @@ import StylesQuienesSomos from './QuienesSomos.module.css';
 export const QuienesSomos = () => {
   return (
     <div data-aos="zoom-in" className={StylesQuienesSomos['quienes-somos-container']}>
-      <div style={{width:'50%'}}>
+      <div style={{width:'100%'}}>
         <img src="/img/quienes.png" alt="quienes" className={StylesQuienesSomos.fotoQuienes} />
       </div>
       <div className={StylesQuienesSomos.texto}>

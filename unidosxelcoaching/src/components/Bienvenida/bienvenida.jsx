@@ -1,6 +1,7 @@
 import React from "react";
 import StylesBienvenida from './bienvenida.module.css';
 
+
 export const Bienvenida = () => {
     return (
         <div data-aos="zoom-in" className={StylesBienvenida.container}>
