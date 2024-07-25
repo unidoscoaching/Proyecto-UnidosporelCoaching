@@ -18,7 +18,7 @@ export const Footer = () => {
             <img className={StylesFooter.img} style={{ width: '2.6rem', marginRight:'1rem'}} src="/img/ig.png" alt="ig" /> @unidosporelcoachig
           </a>
           <a className={StylesFooter.links} href="https://www.facebook.com/unidosporelcoaching" target="_blank" rel="noopener noreferrer">
-            <img className={StylesFooter.img} style={{ width: '2.5rem', marginRight:'1rem'}} src="/img/face.png" alt="face" /> /unidosporelcoachig
+            <img className={StylesFooter.img} style={{ width: '2.5rem', marginRight:'1rem'}} src="/img/face.png" alt="face" /> unidosporelcoachig
           </a>
           <a className={StylesFooter.links} href="https://www.tiktok.com/@unidosporelcoaching" target="_blank" rel="noopener noreferrer">
             <img className={StylesFooter.img} style={{ width: '2.8rem', marginRight:'1rem'}} src="/img/tiktok.png" alt="tiktok" /> @unidosporelcoachig

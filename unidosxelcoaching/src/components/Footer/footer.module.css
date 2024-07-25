@@ -1,4 +1,4 @@
- .footer {
+.footer {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,12 +8,11 @@
   background-color: #7B37B0;
   bottom: 0;
   margin-top: 1rem;
-
 }
 
-.footer-redes{
+.footer-redes {
   background-color: white;
-  margin:  0.75rem 0;
+  margin: 0.75rem 0;
   width: 100%;
   left: 0;
   padding: 0.5rem;
@@ -24,7 +23,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   gap: 0.75rem;
-  margin: 0.5rem ;
+  margin: 0.5rem;
   color: #7B37B0;
   align-items: center !important;
   justify-content: center !important;
@@ -32,6 +31,10 @@
 
 .footer-icons > a {
   flex-basis: 31%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   margin: 5px;
 }
 
@@ -47,94 +50,90 @@
 }
 
 .img {
-  width: 1.2rem;
-  font-size: .75rem;
+  width: 2.3rem;
+  margin-bottom: 0.5rem;
   transition: transform 0.3s ease;
-} 
+}
 
 .footer-text p {
   margin-top: 1.5rem;
   margin: 0.2rem 0;
   font-size: 0.8rem;
   font-family: 'Montserrat';
-  color: #7B37B0
+  color: #7B37B0;
 }
 
 /* Vista Mobile */
 
-@media screen and (max-width:480px){
+@media screen and (max-width: 480px) {
+  .footer {
+    padding: 0.5rem;
+  }
 
-.footer {
-  padding: 0.5rem; 
-}
+  .footer-redes {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+  }
 
-.footer-redes {
-  margin: 0.5rem 0;
-  padding: 0.5rem;
-}
+  .footer-icons {
+    gap: 0.5rem;
+  }
 
-.footer-icons {
-  gap: 0.5rem; 
-}
+  .footer-icons > a {
+    flex-basis: 45%;
+    margin: 5px;
+    font-size: 0.6rem;
+  }
 
-.footer-icons > a {
-  flex-basis: 45%; 
-  margin: 5px;
-  font-size: 0.6rem;
-}
+  .links {
+    font-size: 0.9rem;
+  }
 
-.links {
-  font-size: 0.9rem; 
-}
+  .img {
+    width: 2rem;
+    font-size: 0.75rem;
+  }
 
-.img {
-  width: 1.5rem;
-  font-size: 0.75rem; 
-}
-
-.footer-text p {
-  margin-top: 1.2rem;
-  margin: 0.2rem 0;
-  font-size: 0.3rem;
-  font-family: 'Montserrat';
-  color: #7B37B0
-}
+  .footer-text p {
+    margin-top: 1.2rem;
+    margin: 0.2rem 0;
+    font-size: 0.8rem;
+  }
 }
 
 /* Vista Tablet */
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   .footer {
-    padding: 1rem; 
+    padding: 1rem;
   }
 
   .footer-redes {
     margin: 0.75rem 0;
-    padding: 0.5rem; 
+    padding: 0.5rem;
   }
 
   .footer-icons {
-    gap: 0.75rem; 
+    gap: 0.75rem;
   }
 
   .footer-icons > a {
-    flex-basis: 31%; 
-    margin: 10px; 
+    flex-basis: 31%;
+    margin: 10px;
   }
 
   .links {
-    font-size: 1.5rem; 
+    font-size: 1rem;
   }
 
   .img {
-    width: 1.5rem; 
-    font-size: 0.75rem;
+    width: 2.3rem;
+    font-size: 0.95rem;
   }
+
   .footer-text p {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     margin: 0.2rem 0;
     font-size: 0.8rem;
-    font-family: 'Montserrat';
-    color: #7B37B0
   }
 }

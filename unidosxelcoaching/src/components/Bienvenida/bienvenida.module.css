@@ -9,6 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column; /* Por defecto en columna */
 }
 
 .custom-logo {
@@ -42,7 +43,11 @@
         margin-bottom: 1rem; /* Espacio entre el logo y la imagen */
     }
 
-    .logo-container img,
+    .logo-container img {
+        width: 80%; /* Ajuste del tamaño del logo */
+        height: auto;
+    }
+
     .image-container img {
         width: 100%;
         height: auto;
@@ -64,9 +69,7 @@
 
 /* Vista Tablet */
 
-@media screen and (max-width: 1024px)
-{
-
+@media screen and (max-width: 1024px) {
     .container {
         padding: 0 2rem;
     }
@@ -89,8 +92,31 @@
     }
 
     .row {
-        flex-direction: row; 
-        justify-content: space-around;
-        align-items: center; 
+        flex-direction: column; /* Mantener columna en tablet */
+    }
+}
+
+/* Vista Desktop */
+
+@media screen and (min-width: 1025px) {
+    .row {
+        flex-direction: row; /* Cambiar a fila en vista escritorio */
+        justify-content: space-between; /* Espacio entre los elementos */
+    }
+
+    .logo-container,
+    .image-container {
+        width: 40%; /* Ajustar el ancho de los contenedores */
+    }
+
+    .custom-logo {
+        width: 100%;
+        max-width: 300px; /* Tamaño máximo del logo */
+    }
+
+    .custom-image {
+        width: 100%;
+        max-width: 500px; /* Tamaño máximo de la imagen */
+        margin-top: 0; /* Eliminar margen superior */
     }
 }

@@ -1,15 +1,14 @@
 import React from "react";
 import StylesBienvenida from './bienvenida.module.css';
 
-
 export const Bienvenida = () => {
     return (
         <div data-aos="zoom-in" className={StylesBienvenida.container}>
-            <div className={`${StylesBienvenida.row} align-items-center`}>
-                <div className={`col position-relative ${StylesBienvenida['logo-container']}`}>
+            <div className={StylesBienvenida.row}>
+                <div className={StylesBienvenida['logo-container']}>
                     <img src="/img/unidos.png" alt="unidos" className={StylesBienvenida['custom-logo']} />
                 </div>
-                <div className={`col position-relative ${StylesBienvenida['image-container']}`}>
+                <div className={StylesBienvenida['image-container']}>
                     <img src="/img/bienvenida.png" alt="bienvenida" className={StylesBienvenida['custom-image']} />
                 </div>
             </div>
