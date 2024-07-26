@@ -9,23 +9,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column; /* Por defecto en columna */
+    flex-direction: column; 
 }
 
 .custom-logo {
-    width: 70%;
-    padding: 0.625rem;
-    margin-left: 6.25rem;
+    width: 100%;
+    max-width: 100%;
+   margin-top: 1rem;
+   margin-left: 15rem;
 }
 
 .custom-image {
-    width: 100%;
-    margin-top: 1.25rem;
-    margin-right: 3.125rem;
+    width: 100%; 
+    max-width: 100%; 
+    margin-right: 20rem;
+    padding-top: 2rem;
+   
 }
 
 .welcome-text {
-    margin-top: 1rem;
+    margin-top: 4rem;
     font-size: 1.625rem;
     text-align: center;
     color: #FFFFFF;
@@ -40,11 +43,11 @@
         width: 100%;
         display: block;
         text-align: center;
-        margin-bottom: 1rem; /* Espacio entre el logo y la imagen */
+        margin-bottom: 1rem; 
     }
 
     .logo-container img {
-        width: 80%; /* Ajuste del tamaño del logo */
+        width: 80%; 
         height: auto;
     }
 
