@@ -17,9 +17,8 @@ export const EventosPresenciales = () => {
           <img src="/img/foto-evento.png" alt="foto-evento" className={StylesEventos.fotoeventos}/>
         </figure>
         <h4 className={StylesEventos['texto-unidos']}>
-          Unidos por el Coaching ofrece una variedad de servicios, que incluyen:
-          encuentros presenciales, conferencias, experiencias vivenciales y
-          oportunidades de networking.
+          Unidos por el Coaching te brinda una variedad de servicios que incluyen:
+          Encuentros presenciales de networking, conferencias en distintos puntos del país y entrenamientos para coaches que quieran ser mejores profesionales.
         </h4>
       </div>
 

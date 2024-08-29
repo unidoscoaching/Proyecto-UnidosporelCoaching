@@ -12,15 +12,15 @@ export const Servicios = () => {
       <div className={StylesServicios['servicios-texto']}>
         <h2 className={StylesServicios.tituloservi}>Servicios</h2>
         <div> 
-        <li>
-          Conferencia presencial "El arte de conversar" con la Master Coach
-          Internacional Elena Espinal.
-        </li>
-        <li>Encuentros "Networking entre Colegas" de todo el país.</li>
-        <li>Masterclass Online gratuitas con referentes del coaching.</li>
-        <li>Portal de profesionales recomendados de la comunidad.</li>
-        <li>Sesiones y mentorías para profesionales emprendedores.</li>
-        <li>Talleres, capacitaciones y cursos.</li>
+        <p> 1 - "Encuentro Nacional de Coaches" :
+          Networking entre coaches y profesionales del desarrollo personal.</p>
+        <p> 2 - "Conferencias Presenciales" :
+         Con referentes del Coaching y del Desarrollo Humano. </p>
+        <p> 3 - "Jornada de Celebración día del Coach" :
+         Capacitación en ser mejor oferta como Coach.</p>
+        <p> 4 - Ofrecemos sesiones y mentorías para emprendedores. </p>
+        <p> 5 - Brindamos talleres y Máster Class-Online.</p>
+        <p> 6 - Y contamos con un Portal de Coaches Profesionales recomendados en diferentes servicios.</p>
         
         </div>
         <br />
