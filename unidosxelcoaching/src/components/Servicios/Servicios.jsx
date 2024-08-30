@@ -18,7 +18,7 @@ export const Servicios = () => {
               <li>"Jornada de Celebración día del Coach" Capacitación en ser mejor oferta como Coach.</li>
               <li>Ofrecemos sesiones y mentorías para emprendedores.</li>
               <li>Brindamos talleres y Máster Class-Online.</li>
-              <li>Contamos con un Portal de Coaches Profesionales recomendados en diferentes servicios.</li>
+              <li>Contamos con un Portal de Coaches Profesionales recomendados en diferentes servicios</li>
             </ol>
         </div>
         <br />
