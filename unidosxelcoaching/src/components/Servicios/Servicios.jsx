@@ -13,11 +13,14 @@ export const Servicios = () => {
         <h2 className={StylesServicios.tituloservi}>Servicios</h2>
         <div> 
         <ol className={StylesServicios['servicios-lista']}>
-              <li>"Encuentro Nacional de Coaches" Networking entre coaches y profesionales del desarrollo personal.</li>
-              <li>"Conferencias Presenciales" Con referentes del Coaching y del Desarrollo Humano.</li>
-              <li>"Jornada de Celebración día del Coach" Capacitación en ser mejor oferta como Coach.</li>
-              <li>Ofrecemos sesiones y mentorías para emprendedores.</li>
-              <li>Brindamos talleres y Máster Class-Online.</li>
+              <li>"Encuentro Nacional de Coaches" </li>
+              <p> Networking entre coaches y profesionales del desarrollo personal.</p>
+              <li>"Conferencias Presenciales" </li>
+                <p> Con referentes del Coaching y del Desarrollo Humano. </p>
+              <li>"Jornada de Celebración día del Coach" </li>
+                 <p>Capacitación en ser mejor oferta como Coach.</p> 
+              <li>Ofrecemos sesiones y mentorías para emprendedores.</li> <br />
+              <li>Brindamos Talleres y Máster Class-Online.</li> <br />
               <li>Contamos con un Portal de Coaches Profesionales recomendados en diferentes servicios.</li>
             </ol>
         </div>
