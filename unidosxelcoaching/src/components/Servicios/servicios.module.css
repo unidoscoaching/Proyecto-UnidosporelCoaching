@@ -68,11 +68,37 @@
     }
 
     .servicios-texto {
-        margin-left: 0; 
-        font-size: 1.25rem; 
-        text-align: center; 
+      margin-left: 0;
+      font-size: 1.25rem;
+      text-align: left;
+      padding-left: 1rem;
+    }
+  
+    .servicios-lista {
+      padding-left: 1rem; 
+      list-style: none;
+      counter-reset: section;
+    }
+  
+    .servicios-lista li {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 0.5rem; 
+      line-height: 1.5;
+      padding-left: 1rem;
+      padding-left: 1.5rem;
+      position: relative;
     }
 
+    .servicios-lista li::before {
+      counter-increment: section; /* Incrementa el contador */
+      content: counter(section) ". "; /* Genera el número seguido de un punto */
+      position: absolute;
+      left: 0; /* Alinea la numeración a la izquierda */
+      font-weight: bold; 
+      margin-right: 0.5rem;
+    }
+  
     .btn {
         width: 100%; 
         font-size: 1.25rem; 
