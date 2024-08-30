@@ -82,6 +82,7 @@
   
     .servicios-lista li {
       display: flex;
+      text-align: left;
       align-items: flex-start;
       margin-bottom: 0.5rem; 
       line-height: 1.5;
@@ -91,10 +92,10 @@
     }
 
     .servicios-lista li::before {
-      counter-increment: section; /* Incrementa el contador */
-      content: counter(section) ". "; /* Genera el número seguido de un punto */
+      counter-increment: section; 
+      content: counter(section) ". "; 
       position: absolute;
-      left: 0; /* Alinea la numeración a la izquierda */
+      left: 0; 
       font-weight: bold; 
       margin-right: 0.5rem;
     }
