@@ -80,13 +80,12 @@
       counter-reset: section;
     }
 
-    .servicios-lista li {
+    .servicios-lista li p {
       display: flex;
       text-align: left;
       align-items: flex-start;
       margin-bottom: 0.5rem; 
       line-height: 1.5;
-      padding-left: 1rem;
       padding-left: 1.5rem;
       position: relative;
     }
@@ -95,7 +94,7 @@
       counter-increment: section; 
       content: counter(section) ". "; 
       position: absolute;
-      left: 0; 
+      left: 0;
       font-weight: bold; 
       margin-right: 0.5rem;
     }
